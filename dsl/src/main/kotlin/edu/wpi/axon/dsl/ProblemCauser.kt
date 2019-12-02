@@ -13,6 +13,6 @@ class ProblemCauser {
     fun causeProblem(): Either<Nothing, Int> = Either.fx {
         val a = foo().bind()
         val b = bar().bind()
-        a + b + 2
+        a + b
     }
 }

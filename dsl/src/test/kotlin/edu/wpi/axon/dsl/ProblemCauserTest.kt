@@ -10,7 +10,7 @@ class ProblemCauserTest {
     fun example() {
         val result = ProblemCauser().causeProblem()
         result.shouldBeRight {
-            it.shouldBe(5)
+            it.shouldBe(3)
         }
     }
 }
